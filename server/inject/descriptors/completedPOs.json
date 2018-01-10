@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isCompletedPOs": {
+      "type": "identifier",
+      "selector": "h1",
+      "control": "exists"
+    }
+  },
   "connect": []
 }
