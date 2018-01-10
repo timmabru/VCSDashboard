@@ -26,7 +26,7 @@
       "name": "WHStatus",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
-      "model": "whstatus"
+      "model": "warehouse"
     }
   ],
   "sourceAppId": "_blank",

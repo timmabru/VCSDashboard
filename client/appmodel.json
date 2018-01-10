@@ -27,5 +27,30 @@
         }
       }
     }
+  },
+  "warehouse": {
+    "type": "object",
+    "properties": {
+      "WHList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "PO": {
+              "type": "string"
+            },
+            "WOList": {
+              "type": "string"
+            },
+            "Status": {
+              "type": "string"
+            },
+            "Comment": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }
