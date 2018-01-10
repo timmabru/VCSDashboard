@@ -15,7 +15,7 @@
         "properties": {
           "PO": {
             "type": "string",
-            "control": "property.innerHTML"
+            "control": "property.innerText"
           },
           "WOList": {
             "type": "string",
