@@ -28,13 +28,13 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerHTML",
-            "selectContains": "4"
+            "selectIndex": 4
           },
           "Comment": {
             "type": "string",
             "selector": "td",
             "control": "property.innerHTML",
-            "selectContains": "5"
+            "selectIndex": 5
           }
         }
       }
