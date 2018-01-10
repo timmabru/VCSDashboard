@@ -33,5 +33,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.whstatus', {
+        views: {
+            app: {
+                controller: 'app_whstatus',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.whstatus');
+                }
+            }
+        }
     });
 });
