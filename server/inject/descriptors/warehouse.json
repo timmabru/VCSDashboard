@@ -7,7 +7,7 @@
       "control": "exists",
       "selectContains": "WH Status"
     },
-    "PO": {
+    "WHList": {
       "type": "array",
       "selectorAll": "table[id=\"MainContent_gvWHStatus\"] tr td",
       "items": {
