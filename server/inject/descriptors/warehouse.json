@@ -8,9 +8,12 @@
       "selectContains": "WH Status"
     },
     "PO": {
-      "type": "string",
-      "selector": "table[id=\"MainContent_gvWHStatus\"] tr td",
-      "control": "property.innerText"
+      "type": "array",
+      "selectorAll": "table[id=\"MainContent_gvWHStatus\"] tr td",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
