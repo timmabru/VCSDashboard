@@ -23,6 +23,18 @@
             "selector": "td",
             "control": "property.innerHTML",
             "selectIndex": 3
+          },
+          "Status": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerHTML",
+            "selectContains": "4"
+          },
+          "Comment": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerHTML",
+            "selectContains": "5"
           }
         }
       }
