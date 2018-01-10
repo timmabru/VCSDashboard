@@ -17,6 +17,12 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerHTML"
+          },
+          "WOList": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerHTML",
+            "selectIndex": 2
           }
         }
       }
