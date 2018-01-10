@@ -4,7 +4,8 @@
     "isCompletedPOs": {
       "type": "identifier",
       "selector": "h1",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "Completed POs"
     }
   },
   "connect": []
