@@ -15,7 +15,6 @@
         "properties": {
           "PO": {
             "type": "string",
-            "selector": "td",
             "control": "property.innerHTML"
           },
           "WOList": {
