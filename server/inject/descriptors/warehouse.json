@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isWH": {
+      "type": "identifier",
+      "selector": "title",
+      "control": "exists",
+      "selectContains": "WH Status"
+    }
+  },
+  "connect": []
+}
