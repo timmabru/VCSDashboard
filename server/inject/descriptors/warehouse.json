@@ -3,7 +3,7 @@
   "properties": {
     "isWH": {
       "type": "identifier",
-      "selector": "h1",
+      "selector": "body",
       "control": "exists",
       "selectContains": "WH Status"
     }
