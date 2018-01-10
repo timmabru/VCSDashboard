@@ -19,20 +19,17 @@
           },
           "WOList": {
             "type": "string",
-            "selector": "td",
-            "control": "property.innerHTML",
+            "control": "property.innerText",
             "selectIndex": 3
           },
           "Status": {
             "type": "string",
-            "selector": "td",
-            "control": "property.innerHTML",
+            "control": "property.innerText",
             "selectIndex": 4
           },
           "Comment": {
             "type": "string",
-            "selector": "td",
-            "control": "property.innerHTML",
+            "control": "property.innerText",
             "selectIndex": 5
           }
         }
