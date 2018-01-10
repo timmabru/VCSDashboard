@@ -9,7 +9,7 @@
     },
     "WHList": {
       "type": "array",
-      "selectorAll": "table[id=\"MainContent_gvWHStatus\"] tr:not(th)",
+      "selectorAll": "table[id=\"MainContent_gvWHStatus\"] tr:not(n+0)",
       "items": {
         "type": "object",
         "properties": {
