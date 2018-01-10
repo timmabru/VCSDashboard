@@ -15,22 +15,26 @@
         "properties": {
           "PO": {
             "type": "string",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selector": "td"
           },
           "WOList": {
             "type": "string",
             "control": "property.innerText",
-            "selectIndex": 3
+            "selectIndex": 3,
+            "selector": "td"
           },
           "Status": {
             "type": "string",
             "control": "property.innerText",
-            "selectIndex": 4
+            "selectIndex": 4,
+            "selector": "td"
           },
           "Comment": {
             "type": "string",
             "control": "property.innerText",
-            "selectIndex": 5
+            "selectIndex": 5,
+            "selector": "td"
           }
         }
       }
