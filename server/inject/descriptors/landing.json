@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isLanding": {
+      "type": "identifier",
+      "selector": "h1",
+      "control": "exists",
+      "selectContains": "Visual Schedulling ALU VCS - Visual Plan"
+    }
+  },
+  "connect": []
+}
