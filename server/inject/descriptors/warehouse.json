@@ -6,6 +6,11 @@
       "selector": "h1",
       "control": "exists",
       "selectContains": "WH Status"
+    },
+    "PO": {
+      "type": "string",
+      "selector": "table[id=\"MainContent_gvWHStatus\"] tr td",
+      "control": "property.innerText"
     }
   },
   "connect": []
