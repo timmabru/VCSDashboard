@@ -31,10 +31,11 @@
             "selectIndex": 5
           },
           "ReqDelDate": {
-            "type": "string",
+            "type": "date",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 6
+            "selectIndex": 6,
+            "format": "DD.MM.YYYY"
           },
           "WOAging": {
             "type": "string",
