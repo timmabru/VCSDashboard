@@ -6,6 +6,21 @@
       "selector": "h1",
       "control": "exists",
       "selectContains": "Visual Schedulling ALU VCS - Visual Plan"
+    },
+    "title": {
+      "type": "string"
+    },
+    "descriptionShort": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "action": {
+      "type": "action"
+    },
+    "quantity": {
+      "type": "string"
     }
   },
   "connect": [
