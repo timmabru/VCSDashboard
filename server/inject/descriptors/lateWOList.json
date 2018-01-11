@@ -6,6 +6,26 @@
       "selector": "h1",
       "control": "exists",
       "selectContains": "Late WOs List"
+    },
+    "LateWOList": {
+      "type": "array",
+      "selectorAll": "table tr",
+      "items": {
+        "type": "object",
+        "properties": {
+          "WO": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "PO": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 1
+          }
+        }
+      }
     }
   },
   "connect": []
