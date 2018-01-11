@@ -22,7 +22,7 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 1
+            "selectIndex": 2
           }
         }
       }
