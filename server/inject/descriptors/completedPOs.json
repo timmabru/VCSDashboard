@@ -9,7 +9,7 @@
     },
     "POList": {
       "type": "array",
-      "selectorAll": "table tr",
+      "selectorAll": "table[id=\"MainContent_gvCompletedPOs\"] tr",
       "items": {
         "type": "object",
         "properties": {
