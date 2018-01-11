@@ -11,8 +11,9 @@
     <ion-content data-comp-id="ionic-content.1">
         <div class="row" data-comp-id="row.1" ng-repeat="item in data.WHList">
             <div class="col" data-comp-id="column.1">
-                <div data-comp-id="text.1" ng-bind="&quot;PO: &quot; + item.PO" ng-show="text.1">Some text</div>
-                <div data-comp-id="text.2" ng-bind="&quot;WOList :&quot; + item.WOList">Some text</div>
+                <div data-comp-id="text.1" ng-bind="&quot;PO: &quot; + item.PO" ng-if="item.PO">Some text</div>
+                <div data-comp-id="text.2" ng-bind="&quot;WOList :&quot; + item.WOList"
+                    ng-if="item.WOList">Some text</div>
             </div>
         </div>
     </ion-content>
