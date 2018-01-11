@@ -11,6 +11,11 @@
       "type": "string",
       "selector": "#MainContent_lblAllPOsVal",
       "control": "property.innerText"
+    },
+    "CompletedPOsCount": {
+      "type": "string",
+      "selector": "MainContent_lblCompletedPOs",
+      "control": "property.innerText"
     }
   },
   "connect": [
