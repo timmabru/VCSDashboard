@@ -34,6 +34,13 @@
       "sourceScreenId": "app.detailsview.detailsviewcool",
       "sourceAppId": "universaltemplates",
       "model": "landing"
+    },
+    {
+      "id": "login",
+      "name": "login",
+      "sourceScreenId": "app.login.logincool",
+      "sourceAppId": "universaltemplates",
+      "model": "login"
     }
   ],
   "sourceAppId": "_blank",
