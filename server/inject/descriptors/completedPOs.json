@@ -17,6 +17,12 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText"
+          },
+          "CompletionDate": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 1
           }
         }
       }
