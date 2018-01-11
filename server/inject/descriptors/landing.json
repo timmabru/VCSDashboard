@@ -14,7 +14,7 @@
     },
     "CompletedPOsCount": {
       "type": "string",
-      "selector": "MainContent_lblCompletedPOs",
+      "selector": "#MainContent_lblCompletedPOs",
       "control": "property.innerText"
     }
   },
