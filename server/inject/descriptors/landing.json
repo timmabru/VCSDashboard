@@ -7,22 +7,10 @@
       "control": "exists",
       "selectContains": "Visual Schedulling ALU VCS - Visual Plan"
     },
-    "title": {
-      "type": "string"
-    },
-    "descriptionShort": {
+    "PlannedPOsCount": {
       "type": "string",
       "selector": "#MainContent_lblAllPOsVal",
       "control": "property.innerText"
-    },
-    "description": {
-      "type": "string"
-    },
-    "action": {
-      "type": "action"
-    },
-    "quantity": {
-      "type": "string"
     }
   },
   "connect": [
