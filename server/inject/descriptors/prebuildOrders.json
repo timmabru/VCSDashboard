@@ -3,8 +3,9 @@
   "properties": {
     "isPrebuildOrders": {
       "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "h1",
+      "control": "exists",
+      "selectContains": "Prebuild Orders"
     }
   },
   "connect": []
