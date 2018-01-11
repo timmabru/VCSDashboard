@@ -12,7 +12,13 @@
       "selectorAll": "table[id=\"MainContent_gvPrebuildOrders\"] tr",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "ProdOrdNo": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
