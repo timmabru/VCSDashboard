@@ -12,7 +12,13 @@
       "selectorAll": "table tr",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "PO": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
