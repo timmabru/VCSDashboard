@@ -23,6 +23,24 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 1
+          },
+          "Status": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 5
+          },
+          "ReqDelDate": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 6
+          },
+          "WOAging": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 7
           }
         }
       }
