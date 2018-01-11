@@ -14,8 +14,10 @@
                 <div data-comp-id="text.1" ng-bind="&quot;PO: &quot; + item.PO" ng-if="item.PO">Some text</div>
                 <div data-comp-id="text.2" ng-bind="&quot;WOList :&quot; + item.WOList"
                     ng-if="item.WOList">Some text</div>
-                <div data-comp-id="text.3" ng-bind="&quot;Status: &quot; + item.Status">Some text</div>
-                <div data-comp-id="text.4" ng-bind="&quot;Comment: &quot; + item.Comment">Some text</div>
+                <div data-comp-id="text.3" ng-bind="&quot;Status: &quot; + item.Status"
+                    ng-if="item.Status">Some text</div>
+                <div data-comp-id="text.4" ng-bind="&quot;Comment: &quot; + item.Comment"
+                    ng-if="item.Comment">Some text</div>
             </div>
         </div>
     </ion-content>
