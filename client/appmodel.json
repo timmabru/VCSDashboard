@@ -40,7 +40,10 @@
               "type": "string"
             },
             "WOList": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "Status": {
               "type": "string"
