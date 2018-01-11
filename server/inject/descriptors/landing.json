@@ -11,7 +11,9 @@
       "type": "string"
     },
     "descriptionShort": {
-      "type": "string"
+      "type": "string",
+      "selector": "#MainContent_lblAllPOsVal",
+      "control": "property.innerText"
     },
     "description": {
       "type": "string"
