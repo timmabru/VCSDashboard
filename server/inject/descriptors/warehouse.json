@@ -47,7 +47,8 @@
       ],
       "screens": [
         "whstatus"
-      ]
+      ],
+      "model": "warehouse"
     }
   ]
 }
