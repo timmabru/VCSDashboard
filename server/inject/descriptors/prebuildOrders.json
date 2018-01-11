@@ -8,9 +8,12 @@
       "selectContains": "Prebuild Orders"
     },
     "PrebuildOrdersList": {
-      "type": "string",
-      "selector": "table[id=\"MainContent_gvPrebuildOrders\"] tr > td",
-      "control": "property.innerText"
+      "type": "array",
+      "selectorAll": "table[id=\"MainContent_gvPrebuildOrders\"] tr > td",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
