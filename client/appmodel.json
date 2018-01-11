@@ -82,7 +82,10 @@
         }
       },
       "PlannedPOsCount": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "CompletedPOsCount": {
         "type": "string"
