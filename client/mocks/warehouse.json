@@ -7,8 +7,8 @@
    "$i": 1,
    "PO": "0001316797",
    "WOList": "PVC017909",
-   "Status": " ",
-   "Comment": " "
+   "Status": "testStatus",
+   "Comment": "testComment"
   },
   {
    "$i": 2,
