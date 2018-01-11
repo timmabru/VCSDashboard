@@ -10,7 +10,7 @@
     "PrebuildOrdersList": {
       "type": "array",
       "selectorAll": {
-        "fn": ":not('th')",
+        "fn": "",
         "selectorAll": "table[id=\"MainContent_gvPrebuildOrders\"] tr"
       },
       "items": {
