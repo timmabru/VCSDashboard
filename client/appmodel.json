@@ -80,6 +80,12 @@
             "action"
           ]
         }
+      },
+      "PlannedPOsCount": {
+        "type": "string"
+      },
+      "CompletedPOsCount": {
+        "type": "string"
       }
     }
   },
