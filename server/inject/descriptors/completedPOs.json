@@ -9,7 +9,7 @@
     },
     "POList": {
       "type": "array",
-      "selectorAll": "table",
+      "selectorAll": "table tr",
       "items": {
         "type": "object",
         "properties": {}
