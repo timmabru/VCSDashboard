@@ -27,6 +27,13 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "warehouse"
+    },
+    {
+      "id": "landing",
+      "name": "landing",
+      "sourceScreenId": "app.detailsview.detailsviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "landing"
     }
   ],
   "sourceAppId": "_blank",
