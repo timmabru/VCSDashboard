@@ -6,6 +6,11 @@
       "selector": "h1",
       "control": "exists",
       "selectContains": "Prebuild Orders"
+    },
+    "PrebuildOrdersList": {
+      "type": "string",
+      "selector": "table[id=\"MainContent_gvPrebuildOrders\"] tr > td",
+      "control": "property.innerText"
     }
   },
   "connect": []
