@@ -9,7 +9,7 @@
     },
     "WHList": {
       "type": "array",
-      "selectorAll": "#MainContent_gvWHStatus tr>td",
+      "selectorAll": "#MainContent_gvWHStatus tr",
       "items": {
         "type": "object",
         "properties": {
