@@ -8,5 +8,14 @@
       "selectContains": "Visual Schedulling ALU VCS - Visual Plan"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLanding"
+      ],
+      "screens": [
+        "landing"
+      ]
+    }
+  ]
 }
