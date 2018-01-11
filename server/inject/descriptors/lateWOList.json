@@ -9,7 +9,7 @@
     },
     "LateWOList": {
       "type": "array",
-      "selectorAll": "table tr",
+      "selectorAll": "table[id=\"MainContent_gvLateWOs\"] tr",
       "items": {
         "type": "object",
         "properties": {
