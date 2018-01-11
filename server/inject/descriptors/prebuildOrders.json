@@ -17,6 +17,12 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText"
+          },
+          "Item": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 1
           }
         }
       }
