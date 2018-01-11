@@ -9,10 +9,7 @@
     },
     "PrebuildOrdersList": {
       "type": "array",
-      "selectorAll": {
-        "fn": "",
-        "selectorAll": "table[id=\"MainContent_gvPrebuildOrders\"] tr"
-      },
+      "selectorAll": "table[id=\"MainContent_gvPrebuildOrders\"] tr > 0",
       "items": {
         "type": "object",
         "properties": {
