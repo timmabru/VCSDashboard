@@ -9,7 +9,7 @@
     },
     "PrebuildOrdersList": {
       "type": "array",
-      "selectorAll": "table[id=\"MainContent_gvPrebuildOrders\"] tr:not(:has(th))",
+      "selectorAll": "table[id=\"MainContent_gvPrebuildOrders\"] tr",
       "items": {
         "type": "object",
         "properties": {
