@@ -6,6 +6,14 @@
       "selector": "h1",
       "control": "exists",
       "selectContains": "Completed POs"
+    },
+    "POList": {
+      "type": "array",
+      "selectorAll": "table",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
