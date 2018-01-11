@@ -23,6 +23,12 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 2
+          },
+          "ActualVsPlanned": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 5
           }
         }
       }
