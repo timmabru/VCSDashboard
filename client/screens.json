@@ -4,12 +4,6 @@
   "startScreen": "app.whstatus",
   "screens": [
     {
-      "id": "blank",
-      "name": "BLANK",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank"
-    },
-    {
       "id": "whstatus",
       "name": "whstatus",
       "sourceScreenId": "app.listview.listviewcool",
@@ -34,6 +28,12 @@
       "sourceScreenId": "app.detailsview.detailsviewcool",
       "sourceAppId": "universaltemplates",
       "model": "landing"
+    },
+    {
+      "id": "blank",
+      "name": "BLANK",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank"
     }
   ],
   "sourceAppId": "_blank",
