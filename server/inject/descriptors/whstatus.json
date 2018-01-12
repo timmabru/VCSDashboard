@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "WHList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "PO": {
+            "type": "string"
+          },
+          "WOList": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "Status": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "Comment": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          }
+        }
+      }
+    }
+  },
+  "connect": []
+}
