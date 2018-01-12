@@ -44,8 +44,9 @@
     },
     "iswh": {
       "type": "identifier",
-      "selector": "#MainContent_upWRH",
-      "control": "property.innerHTML"
+      "selector": "h1",
+      "control": "exists",
+      "selectContains": "WH Status"
     }
   },
   "connect": []
