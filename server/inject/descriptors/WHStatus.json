@@ -45,7 +45,7 @@
     "iswh": {
       "type": "identifier",
       "selector": "h1",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "WH Status"
     }
   },
