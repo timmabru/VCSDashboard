@@ -49,5 +49,14 @@
       "selectContains": "WH Status"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "iswh"
+      ],
+      "screens": [
+        "whstatus"
+      ]
+    }
+  ]
 }
