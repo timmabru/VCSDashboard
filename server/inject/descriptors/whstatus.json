@@ -24,7 +24,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 4
           },
           "Comment": {
             "type": "string",
