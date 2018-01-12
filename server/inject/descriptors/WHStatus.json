@@ -41,6 +41,11 @@
         }
       },
       "selectorAll": "#MainContent_gvWHStatus tr"
+    },
+    "iswh": {
+      "type": "identifier",
+      "selector": "h1",
+      "control": "property.innerText"
     }
   },
   "connect": []
