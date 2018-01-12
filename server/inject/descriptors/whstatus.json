@@ -43,7 +43,7 @@
       "selectorAll": "#MainContent_gvWHStatus tr"
     },
     "iswh": {
-      "type": "string",
+      "type": "identifier",
       "selector": "#MainContent_upWRH",
       "control": "property.innerHTML"
     }
