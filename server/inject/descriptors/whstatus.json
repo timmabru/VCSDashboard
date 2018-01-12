@@ -41,6 +41,11 @@
         }
       },
       "selectorAll": "#MainContent_gvWHStatus tr"
+    },
+    "iswh": {
+      "type": "string",
+      "selector": "#MainContent_upWRH",
+      "control": "property.innerHTML"
     }
   },
   "connect": []
