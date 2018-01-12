@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "vcsdashboard",
-  "startScreen": "app.blank",
+  "startScreen": "app.whstatus",
   "screens": [
     {
       "id": "blank",

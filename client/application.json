@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "6dd956fd",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "timmabru"
+  "creatorId": "timmabru",
+  "id": "vcsdashboard",
+  "previewImageURL": "/previews/6dd956fd-vcsdashboard/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/timmabru/VCSDashboard",
+  "creatorName": "Mihai Abrudan",
+  "sdks": []
 }
