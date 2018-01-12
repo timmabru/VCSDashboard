@@ -8,7 +8,7 @@
       "name": "whstatus",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
-      "model": "WHStatus"
+      "model": "whstatus"
     },
     {
       "id": "menu",
