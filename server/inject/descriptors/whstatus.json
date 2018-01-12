@@ -33,7 +33,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 5,
+            "control": "property.innerText"
           }
         }
       },
