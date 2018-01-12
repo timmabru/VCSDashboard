@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
     // Start URL that browsing should start at.
-    startURL: 'http://timnt030/vcsvisualplan/',
+    startURL: 'http://timnt030/vcsvisualplan/WHStatus.aspx',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
