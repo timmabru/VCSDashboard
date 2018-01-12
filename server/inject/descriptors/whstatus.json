@@ -9,7 +9,6 @@
           "PO": {
             "type": "string",
             "selector": "td",
-            "selectIndex": 3,
             "control": "property.innerText"
           },
           "WOList": {
