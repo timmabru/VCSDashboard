@@ -10,6 +10,13 @@
       "sourceScreenId": "app.blank"
     },
     {
+      "id": "whstatus",
+      "name": "whstatus",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "WHStatus"
+    },
+    {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
@@ -20,13 +27,6 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
-    },
-    {
-      "id": "whstatus",
-      "name": "whstatus",
-      "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "universaltemplates",
-      "model": "WHStatus"
     },
     {
       "id": "landing",
