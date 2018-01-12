@@ -28,7 +28,8 @@
             }
           }
         }
-      }
+      },
+      "selectorAll": "#MainContent_gvWHStatus tr"
     }
   },
   "connect": []
