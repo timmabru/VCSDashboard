@@ -40,15 +40,5 @@
       }
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isWH"
-      ],
-      "screens": [
-        "whstatus"
-      ],
-      "model": "WHStatus"
-    }
-  ]
+  "connect": []
 }
