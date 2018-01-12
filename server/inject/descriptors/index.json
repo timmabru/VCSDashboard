@@ -3,5 +3,6 @@
   "completedPOs.json",
   "landing.json",
   "prebuildOrders.json",
-  "lateWOList.json"
+  "lateWOList.json",
+  "whstatus.json"
 ]

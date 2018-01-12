@@ -1,53 +1,35 @@
 {
   "type": "object",
   "properties": {
-    "isWH": {
-      "type": "identifier",
-      "selector": "h1",
-      "control": "exists",
-      "selectContains": "WH Status"
-    },
     "WHList": {
       "type": "array",
-      "selectorAll": "#MainContent_gvWHStatus tr",
       "items": {
         "type": "object",
         "properties": {
           "PO": {
-            "type": "string",
-            "control": "property.innerText",
-            "selector": "td"
+            "type": "string"
           },
           "WOList": {
             "type": "string",
-            "control": "property.innerText",
-            "selectIndex": 3,
-            "selector": "td"
+            "update": {
+              "type": "none"
+            }
           },
           "Status": {
             "type": "string",
-            "control": "property.innerText",
-            "selectIndex": 4,
-            "selector": "td"
+            "update": {
+              "type": "none"
+            }
           },
           "Comment": {
             "type": "string",
-            "control": "property.innerText",
-            "selectIndex": 5,
-            "selector": "td"
+            "update": {
+              "type": "none"
+            }
           }
         }
       }
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isWH"
-      ],
-      "screens": [
-        "whstatus"
-      ]
-    }
-  ]
+  "connect": []
 }
