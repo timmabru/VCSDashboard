@@ -45,7 +45,8 @@
     "iswh": {
       "type": "identifier",
       "selector": "h1",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selectContains": "WH Status"
     }
   },
   "connect": []
